@@ -1,0 +1,127 @@
+    @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&&display=swap);
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+    
+    body {
+        height: auto;
+        width: 100vw;
+        overflow-x: hidden;
+        background: #3a4452;
+    }
+    
+    .calh1 {
+        font-size: 40px;
+        font-weight: 450;
+        color: #ffff;
+        text-align: center;
+        margin: 20px auto;
+        height: 50px;
+        width: 500px;
+        text-align: center;
+        padding: 0px 50px 0px 50px;
+    }
+    
+    .container {
+        height: 580px;
+        width: 500px;
+        margin: 20px auto;
+        padding: 0px 50px 0px 50px;
+    }
+    
+    .maindiv {
+        border-radius: 15px;
+        border: solid #717377 1px;
+        padding: 20px;
+        background: #000000;
+        box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+        height: 560px;
+        width: 380px;
+        margin: 0px auto;
+        /* background: linear-gradient(45deg, #0a0a0a, #3a4452); */
+    }
+    
+    input {
+        width: 320px;
+        background: transparent;
+        border: none;
+        padding: 23px;
+        background: transparent;
+        font-size: 40px;
+        text-align: right;
+        color: #ffff;
+        outline: none;
+        letter-spacing: 1px;
+    }
+    
+    input::placeholder {
+        color: #ffff;
+    }
+    
+    button {
+        border: none;
+        border-radius: 50%;
+        height: 65px;
+        width: 65px;
+        margin: 10px;
+        background: #313131;
+        color: #ffff;
+        font-size: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(50, 48, 48, 0.23) 0px 3px 6px;
+    }
+    
+    .zero {
+        height: 65px;
+        width: 150px;
+        border-radius: 65px;
+        text-align: left;
+        padding-left: 25px;
+    }
+    
+    #ac,
+    #del {
+        background: #9f9f9f;
+        color: #181818;
+        font-size: 20px;
+        font-weight: 550;
+    }
+    
+    #eql,
+    .operator {
+        background: #f69906;
+        font-size: 30px;
+    }
+    
+    #modulus {
+        background: #9f9f9f;
+        color: #181818;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .div1,
+    .div2,
+    .div3,
+    .div4,
+    .div5 {
+        display: flex;
+    }
+    
+    .ftr {
+        color: #ffff;
+        opacity: 0.8;
+        height: 60px;
+        width: 500px;
+        margin: 20px auto;
+        padding: 0px 50px 0px 50px;
+        text-align: center;
+    }
+    
+    @media only screen and (max-width) {
+        body {
+            max-width: 500px;
+        }
+    }
